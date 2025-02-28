@@ -287,8 +287,9 @@ section {
 .img{
     width: 600px;
 }
+
 .project-card img {
-    width: 40vw;
+    width: 100%;
     border-radius: 1rem;
     object-fit: cover;
 }
@@ -307,13 +308,11 @@ section {
 .project-card h3 {
     font-size: 3rem;
     font-weight: 500;
-   text-align: center;
+    text-align: center;
 }
-
 .project-card p {
     text-align: center;
 }
-
 .input-box {
     display: flex;
     flex-direction: column;
@@ -396,7 +395,7 @@ footer ul li a {
     .input-box i {
         font-size: 2.5rem;
     }
-     .img{
+    .img{
         width: 400px;
     }
 }
@@ -429,9 +428,8 @@ footer ul li a {
         grid-template-columns: repeat(1, 1fr);
     }
     .img{
-        width: 500px;
+        width: 350px;
     }
-}
 }
 
 @media(max-width:600px) {
@@ -468,9 +466,26 @@ footer ul li a {
         font-size: 1.5rem;
     }
 
+    .section-title {
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin-bottom: 2.5rem;
+    }
+
+    .grid-card {
+        padding: 1rem;
+
+    }
+
     .about-container {
         width: 80vw;
     }
+
+    .project-card {
+        padding: 1rem;
+        gap: 1.2rem;
+    }
+
     .input-box input{
         padding: 0.5rem 3rem;
         width: 80%;
@@ -482,12 +497,15 @@ footer ul li a {
     footer ul {
         gap: 1rem;
     }
-     .project-card h3 {
-        font-size: 2rem;
+    .project-card h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
     }
     .img{
         width: 300px;
     }
-
+    section {
+        padding: 8rem 5%;
+    }
 
 }
