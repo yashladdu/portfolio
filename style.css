@@ -285,7 +285,10 @@ section {
 }
 
 .img{
-    width: 600px;
+    width: 350px;
+    height: 350px;
+    border-radius: 1rem;
+    
 }
 
 .project-card img {
@@ -501,9 +504,7 @@ footer ul li a {
         font-size: 1.2rem;
         font-weight: 600;
     }
-    .img{
-        width: 300px;
-    }
+
     section {
         padding: 8rem 5%;
     }
